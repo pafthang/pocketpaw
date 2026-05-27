@@ -1,80 +1,40 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+```
+# Go binaries
+*.exe
+*.dll
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-/lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+*.dylib
+*.out
 
-# Virtual environments
-.venv/
-venv/
-ENV/
+# Go build artifacts
+go-pocketpaw/bin/
+go-pocketpaw/pkg/
 
-# UV
-.uv/
+# Dependencies
+vendor/
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+# Logs and temporary files
+*.log
+*.tmp
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.nox/
-
-# Internal drafts
-idocs/
-.claude 
-
-# Config (contains secrets)
+# Environment
 .env
 .env.local
+*.env.*
 
-# Logs
-*.log
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Build artifacts
-*.pyc
-*.pyo
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
-temp
-
-# Client (Tauri + SvelteKit)
-node_modules/
-.svelte-kit/
-client/build/
-client/src-tauri/target/
-client/src-tauri/gen/
-client/bun.lock
-
-private.key
-
-# Backups and secrets
-.env.bak
-*.bak
-
-output.txt
+# Build directories
+build/
+dist/
+target/
+```
