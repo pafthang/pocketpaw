@@ -1,39 +1,4 @@
 ```
-# Dependencies
-vendor/
-
-# Build artifacts
-*.o
-*.obj
-*.a
-*.so
-*.dll
-*.exe
-*.out
-
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Temp files
-*.tmp
-*.swp
-*.swo
+# Go build artifacts
+pocketpaw
 ```
