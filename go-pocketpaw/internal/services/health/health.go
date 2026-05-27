@@ -1,4 +1,4 @@
-package services
+package health
 
 import (
 	"time"
